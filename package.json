@@ -1,0 +1,25 @@
+{
+  "name": "compose-components-release",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Pinned tooling for stable Android library releases",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrndstvndv/compose-components.git"
+  },
+  "packageManager": "npm@11.16.0",
+  "engines": {
+    "node": ">=24.10.0 <25",
+    "npm": ">=11.0.0 <12"
+  },
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "13.0.1",
+    "@semantic-release/exec": "7.1.0",
+    "@semantic-release/github": "12.0.11",
+    "@semantic-release/release-notes-generator": "14.1.1",
+    "semantic-release": "25.0.9"
+  }
+}
